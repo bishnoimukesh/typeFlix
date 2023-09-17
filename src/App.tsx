@@ -1,12 +1,11 @@
 import "./App.css";
+import Hero from "./components/Hero"
 
 function App() {
 
   return (
-    <div className="min-h-screen flex justify-center items-center">
-      <h1 className="text-3xl font-bold text-blue-600">
-        TypeFlix
-      </h1>
+    <div className="h-full flex justify-center items-center">
+      <Hero/>
     </div>
   );
 }
